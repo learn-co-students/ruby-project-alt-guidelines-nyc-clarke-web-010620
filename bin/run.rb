@@ -1,3 +1,6 @@
 require_relative '../config/environment'
+require 'tty-prompt'
 
-puts "hello world"
+app = ConcertApp.new
+app.run
+
